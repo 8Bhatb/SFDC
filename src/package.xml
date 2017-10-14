@@ -5,7 +5,13 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Case-Case Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Case.Secondary_email__c</members>
         <members>Case.Effective_date__c</members>
+        <members>Case.Comments__c</members>
         <name>CustomField</name>
     </types>
     <version>38.0</version>
