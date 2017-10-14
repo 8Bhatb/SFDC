@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Effective_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Effective date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
         <fullName>Secondary_email__c</fullName>
         <externalId>false</externalId>
         <label>Secondary email</label>
@@ -10,13 +32,5 @@
         <trackTrending>false</trackTrending>
         <type>Email</type>
         <unique>false</unique>
-        <fullName>Effective_date__c</fullName>
-        <externalId>false</externalId>
-        <label>Effective date</label>
-        <required>true</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
     </fields>
 </CustomObject>
