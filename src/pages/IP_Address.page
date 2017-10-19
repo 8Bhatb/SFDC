@@ -1,0 +1,5 @@
+<apex:page controller="IP_Address">
+External webservice response IP:{!ip}<br/>
+True-Client-IP:{!ip2}<br/>
+X-Salesforce-SIP IP:{!ip3}<br/>
+</apex:page>
